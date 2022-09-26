@@ -1,0 +1,11 @@
+n = input()
+c = int(input())
+print(n[:c+1][::-1]+n[c+1:])
+
+'''
+Sample Input 1:
+72418
+4
+Sample Output 1:
+81427
+'''
