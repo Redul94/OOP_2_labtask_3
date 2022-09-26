@@ -1,0 +1,23 @@
+n = list(input())
+
+for i in range(len(set(n))):
+    if i==0 or i==1:
+        i="Binary Number"
+    else:
+        i="Not a Binary Number"
+print(i)
+'''
+Sample Input 1:
+01101101101
+
+Sample Output 1:
+Binary Number
+
+=====================================================================
+Sample Input 2:
+12344ab0
+
+Sample Output 2:
+Not a Binary Number
+
+'''
