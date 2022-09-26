@@ -1,0 +1,8 @@
+n = list(input())
+list1=n[::-1]
+print(*list1, sep='')
+'''Sample Input 2:
+Python
+Sample Output 2:
+nohtyP
+'''
